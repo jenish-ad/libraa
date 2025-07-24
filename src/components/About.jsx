@@ -7,7 +7,7 @@ export default function About() {
       <div className="  max-w-screen-xl mx-auto px-4 py-3 flex  flex-col items-center justify-start  ">
         <div className="flex flex-col items-center text-center space-y-5 ">
           <div className="text-5xl  space-x-8 font-semibold dark:text-white">About us</div>
-          <img className=" h-30" src="logo.svg" alt="About us" />
+          <img className=" h-25" src="logo.svg" alt="About us" />
         </div>
         <div className=" px-6 py-4  bg-gray-600 rounded overflow-hidden shadow-lg ">
           <div className="font-bold text-xl mb-2 text-white  ">About us</div>

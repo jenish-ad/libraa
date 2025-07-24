@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">About</h3>
           <p className="text-sm">
-            We are a platform dedicated to helping users with modern tools and clean design.
+            We are a platform dedicated to helping users with modern tools and clean design.and performing the design on liabry application which under development.
           </p>
         </div>
 
@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
           <ul className="text-sm space-y-1">
-            <li>Email: support@example.com</li>
+            <li>Email: libraa@libary.com</li>
             <li>Phone: +977 9800000000</li>
           </ul>
         </div>
@@ -25,9 +25,12 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Our Socials</h3>
           <ul className="text-sm space-y-1">
-            <li><a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li className="flex items-center space-x-2"><img src="facebook.png" alt="facebook" className="h-4"/>
+            <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li className="flex items-center space-x-2"><img src="x.png" alt="instagram" className="h-4"/>
+            <a href="https://x.com/" target="_blank" rel="noreferrer">X</a></li>
+            <li className="flex items-center space-x-2"><img src="instagram.png" alt="x" className="h-4"/>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
           </ul>
         </div>
 
@@ -46,7 +49,7 @@ const Footer = () => {
 
       {/* Bottom copyright */}
       <div className="mt-10 text-center text-xs text-gray-500">
-        &copy; {new Date().getFullYear()} Jenish Inc. All rights reserved.
+        &copy; {new Date().getFullYear()} Libraa Inc. All rights reserved.
       </div>
     </footer>
   );
